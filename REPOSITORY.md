@@ -1,11 +1,20 @@
-# Private repository layout
+# Repository layout / 仓库目录
 
-This private repository archives the release-review bundle prepared on 2026-10-06.
+Status: **private, unreleased**. See [RELEASE_CHECKLIST.md](RELEASE_CHECKLIST.md).
 
-- `pets/<pet-id>/`: extracted, ready-to-inspect pet folders. Each contains `pet.json`, `spritesheet.png`, and `NOTICE.txt`.
-- `packages/`: the five original independent ZIP packages, unchanged.
-- `previews/`: the original GIF previews, unchanged.
-- `README.md`, `INSTALL.md`, `PROVENANCE.md`, `VALIDATION.md`, `NOTICE.txt`: original review documentation.
-- `manifest.json` and `SHA256SUMS`: original bundle metadata and checksums. They cover the release-review bundle; the added extracted folders match the corresponding ZIP members byte-for-byte.
+- `pets/<pet-id>/`: five inspectable pet folders. Each contains `pet.json`, `spritesheet.png`, `NOTICE.txt`, and a self-contained asset `LICENSE.md`.
+- `packages/`: five standalone ZIPs, rebuilt to include the same four files at the archive root. ZIP bytes change when notices change; the sprite and metadata bytes stay unchanged.
+- `previews/`: five individual GIFs and one chibi comparison GIF, all original bytes.
+- `validation/`: existing per-variant structural reports and retained historical quality warnings.
+- `README.md`, `INSTALL.md`, `PREVIEW.html`: browsing and local-loading instructions.
+- `LICENSE`: MIT for eligible original repository-level code/documentation only.
+- `ASSETS_LICENSE.md`, `NOTICE.txt`, `PROVENANCE.md`: fan-asset scope, third-party rights, and source gaps.
+- `CONTRIBUTING.md`: narrowly scoped contribution guidance.
+- `RELEASE_CHECKLIST.md`: remaining publication and verification decisions.
+- `manifest.json`: identities, license status, original sprite/metadata hashes, and hashes for repository payload files except itself and `SHA256SUMS`.
+- `SHA256SUMS`: hashes all repository payload files except itself, including `manifest.json`.
 
-See `INSTALL.md` before loading a pet. Public distribution, attribution, and licensing remain undecided. No blanket license is granted by this upload.
+Integrity lists exclude Git's internal `.git/` directory. Extracted pet files and corresponding ZIP members match byte-for-byte. Read [INSTALL.md](INSTALL.md) before loading.
+
+此仓库保持私有、未发布。ZIP 因附带声明更新而重新打包；五张原始 PNG、六张 GIF 及五份 pet.json 保持不变。校验记录覆盖完整仓库文件（不含 Git 内部目录）；manifest 与 SHA256SUMS 排除自身哈希，避免递归。
+

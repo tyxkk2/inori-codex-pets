@@ -1,10 +1,10 @@
 {
   "bundle": "inori-codex-pets",
-  "status": "review-draft",
+  "status": "private-unreleased",
   "created_at_utc": "2026-10-06T20:01:31Z",
   "public_release_authorized": false,
-  "license_status": "Undecided; no new grant of rights.",
-  "artwork_policy": "Original PNG and GIF bytes preserved. No artwork generated or modified in this packaging pass.",
+  "license_status": "Scoped MIT for eligible original repository code/docs; limited personal/noncommercial asset notice only for contributor-held rights; third-party rights unresolved.",
+  "artwork_policy": "Original PNG, GIF, pet.json and validation-report bytes preserved. Licensing update changes documentation, packaged notices and integrity metadata only.",
   "compatibility_target": "Petdex Desktop local-folder packaging; no current ChatGPT-native ZIP import UI verified.",
   "petdex_source_revision": "7e327034c27098bb7b701b834e34af81c2cfbdba",
   "pets": [
@@ -34,7 +34,12 @@
         "height": 456,
         "frames": 57
       },
-      "validation": "validation/inori-q-goldfish.json"
+      "validation": "validation/inori-q-goldfish.json",
+      "folder": "pets/inori-q-goldfish/",
+      "asset_license": "pets/inori-q-goldfish/LICENSE.md",
+      "notice": "pets/inori-q-goldfish/NOTICE.txt",
+      "package_sha256": "4fe57461193c1c38a8eb330b408d7de25bd54ce4233d33e527ff9fdb69e0949d",
+      "package_size_bytes": 2821899
     },
     {
       "id": "inori-q-school",
@@ -62,7 +67,12 @@
         "height": 300,
         "frames": 130
       },
-      "validation": "validation/inori-q-school.json"
+      "validation": "validation/inori-q-school.json",
+      "folder": "pets/inori-q-school/",
+      "asset_license": "pets/inori-q-school/LICENSE.md",
+      "notice": "pets/inori-q-school/NOTICE.txt",
+      "package_sha256": "0584e772ca28d1ff5223f73e1af7839e1cce13a92be0b16946bf9f56ad28e21b",
+      "package_size_bytes": 2552543
     },
     {
       "id": "inori-q-red-jacket",
@@ -90,7 +100,12 @@
         "height": 456,
         "frames": 57
       },
-      "validation": "validation/inori-q-red-jacket.json"
+      "validation": "validation/inori-q-red-jacket.json",
+      "folder": "pets/inori-q-red-jacket/",
+      "asset_license": "pets/inori-q-red-jacket/LICENSE.md",
+      "notice": "pets/inori-q-red-jacket/NOTICE.txt",
+      "package_sha256": "a5165f1f82338403da99e3a630c89006bed71ba92dde1c5b67057fc3f0e1f992",
+      "package_size_bytes": 3003844
     },
     {
       "id": "inori-school",
@@ -118,7 +133,12 @@
         "height": 232,
         "frames": 57
       },
-      "validation": "validation/inori-school.json"
+      "validation": "validation/inori-school.json",
+      "folder": "pets/inori-school/",
+      "asset_license": "pets/inori-school/LICENSE.md",
+      "notice": "pets/inori-school/NOTICE.txt",
+      "package_sha256": "6acec1144c173001cef046ba2625bc2d4262787c5d1f051b5bf9b707ef2e4ca8",
+      "package_size_bytes": 1521811
     },
     {
       "id": "inori-red-jacket",
@@ -146,64 +166,194 @@
         "height": 452,
         "frames": 114
       },
-      "validation": "validation/inori-red-jacket.json"
+      "validation": "validation/inori-red-jacket.json",
+      "folder": "pets/inori-red-jacket/",
+      "asset_license": "pets/inori-red-jacket/LICENSE.md",
+      "notice": "pets/inori-red-jacket/NOTICE.txt",
+      "package_sha256": "79f847a2c25bb1f8512c90d1ddcb54332910b7a7e7e48b9ac906927613090859",
+      "package_size_bytes": 1473515
     }
   ],
   "files": [
     {
+      "path": "ASSETS_LICENSE.md",
+      "size_bytes": 5859,
+      "sha256": "ce1f453400ff56f1a4f89710a05384b3a5809f566b825cb9c486a9bc56c556ed"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "size_bytes": 2312,
+      "sha256": "a1ebe464224afd486827df362c552b8d0ebbed4a299d72db4f3fcf5d3f2fab1c"
+    },
+    {
       "path": "INSTALL.md",
-      "size_bytes": 4580,
-      "sha256": "dfdef114004125661fcf09b0966f5a862ca2a0cbd3737f4d6617c944e0f5c024"
+      "size_bytes": 4988,
+      "sha256": "81a28d19dbafce6d04c45a539f2289513b3a2ac50bd2b756268138cf878ec735"
+    },
+    {
+      "path": "LICENSE",
+      "size_bytes": 1668,
+      "sha256": "cd705649a2ce08b13d10bfdcd076b7147f792793aebbde2f64372d6e84fa6002"
     },
     {
       "path": "NOTICE.txt",
-      "size_bytes": 1301,
-      "sha256": "81e34e89bf116d23509eff7a0b0632228d01be5c3b56af1b2c651fe1ca32316b"
+      "size_bytes": 2271,
+      "sha256": "0476a6e1269deaa0cbbf2db6e96143279dc19a5caf3a46bba243a6f6ac6da0d7"
     },
     {
       "path": "PREVIEW.html",
-      "size_bytes": 5266,
-      "sha256": "4dc702b4165ce568d516855ede50054bd74fed55d627b7e824a6e57b0c67c11c"
+      "size_bytes": 5502,
+      "sha256": "cd3300bb18821f59064737bb745d3aaed3cc92fb8748f6afce8397b5153ecc3f"
     },
     {
       "path": "PROVENANCE.md",
-      "size_bytes": 2848,
-      "sha256": "e2af0c9f4902a5f8ebda0365281c97d2187e9595054380f7acb3ffc391e755ab"
+      "size_bytes": 5472,
+      "sha256": "37dc272d2acce8f0c706ed2158850e46c92ac55fcafec96e03d76930d0fdce62"
     },
     {
       "path": "README.md",
-      "size_bytes": 3011,
-      "sha256": "3ebc2f5cf208c8ad14280efa778fb359dac42b4c1104fba78cd299465dfcb6c7"
+      "size_bytes": 7035,
+      "sha256": "c0ebe9671587c952174573e4aed6eaafaf3ee9bf689be98abf097c15a7398727"
+    },
+    {
+      "path": "RELEASE_CHECKLIST.md",
+      "size_bytes": 2884,
+      "sha256": "72094681a0e1d8914fdab2dfcaa573c76028498873088a3fcfc99a156c0b13f1"
+    },
+    {
+      "path": "REPOSITORY.md",
+      "size_bytes": 1743,
+      "sha256": "f0c7c4c6f84a788ec28ab9a398104d4373179aceece430c3c803463299425157"
     },
     {
       "path": "VALIDATION.md",
-      "size_bytes": 2919,
-      "sha256": "e74b5fa292ed76b54e7a66936632cb2849d754cc01a8b1ff88e5de4ead5955a0"
+      "size_bytes": 4009,
+      "sha256": "5945a3ff211abcd2542413e0a78193fc4e8a814e13b818b7b1abe8715a4db3d5"
     },
     {
       "path": "packages/inori-q-goldfish.zip",
-      "size_bytes": 2819190,
-      "sha256": "39b78b3be6243aeddb0b1419aa3b940d978462a58e7d31671d3c9288931f5822"
+      "size_bytes": 2821899,
+      "sha256": "4fe57461193c1c38a8eb330b408d7de25bd54ce4233d33e527ff9fdb69e0949d"
     },
     {
       "path": "packages/inori-q-red-jacket.zip",
-      "size_bytes": 3001131,
-      "sha256": "21113d07d094ba03efc6a70a487f397f66b06fa0b3c5aed6b171b51faa795299"
+      "size_bytes": 3003844,
+      "sha256": "a5165f1f82338403da99e3a630c89006bed71ba92dde1c5b67057fc3f0e1f992"
     },
     {
       "path": "packages/inori-q-school.zip",
-      "size_bytes": 2549831,
-      "sha256": "c0a32aff86abf280233c2d01bd28dcf63cbcee27a022b45f8fc1ac730e0adee8"
+      "size_bytes": 2552543,
+      "sha256": "0584e772ca28d1ff5223f73e1af7839e1cce13a92be0b16946bf9f56ad28e21b"
     },
     {
       "path": "packages/inori-red-jacket.zip",
-      "size_bytes": 1470800,
-      "sha256": "fdd56c6d26c0cff3f05e5cc53a4238569c73c78f2b5f58a9eb4c5fc7fd7dc5ad"
+      "size_bytes": 1473515,
+      "sha256": "79f847a2c25bb1f8512c90d1ddcb54332910b7a7e7e48b9ac906927613090859"
     },
     {
       "path": "packages/inori-school.zip",
-      "size_bytes": 1519096,
-      "sha256": "4f8361ba9caba57ffc156e003e594029beb0d8ce2bd39035452e120dfbceed44"
+      "size_bytes": 1521811,
+      "sha256": "6acec1144c173001cef046ba2625bc2d4262787c5d1f051b5bf9b707ef2e4ca8"
+    },
+    {
+      "path": "pets/inori-q-goldfish/LICENSE.md",
+      "size_bytes": 3676,
+      "sha256": "e5dd918a5cbafe90294b0ff60fd63d5e6ddcb27e8e19bdd2160f806155730ea4"
+    },
+    {
+      "path": "pets/inori-q-goldfish/NOTICE.txt",
+      "size_bytes": 2271,
+      "sha256": "0476a6e1269deaa0cbbf2db6e96143279dc19a5caf3a46bba243a6f6ac6da0d7"
+    },
+    {
+      "path": "pets/inori-q-goldfish/pet.json",
+      "size_bytes": 258,
+      "sha256": "bb1813cfd36cdc548ca9fe0ec0fcb9b5be8c18592c7fdf39676b9e3713620176"
+    },
+    {
+      "path": "pets/inori-q-goldfish/spritesheet.png",
+      "size_bytes": 2821747,
+      "sha256": "cfb30d2b6a2e7c5791c1108e8c9ef1171312cb5404c7caf1c7445f3554b15e5d"
+    },
+    {
+      "path": "pets/inori-q-red-jacket/LICENSE.md",
+      "size_bytes": 3680,
+      "sha256": "09e6105da16bb614f6e266fac3d8729b9a6a3434bf8e3e907dceb4ce4e418cd5"
+    },
+    {
+      "path": "pets/inori-q-red-jacket/NOTICE.txt",
+      "size_bytes": 2271,
+      "sha256": "0476a6e1269deaa0cbbf2db6e96143279dc19a5caf3a46bba243a6f6ac6da0d7"
+    },
+    {
+      "path": "pets/inori-q-red-jacket/pet.json",
+      "size_bytes": 247,
+      "sha256": "1a8586a2fed3085fa717dd67f3329b9a83aba50ac4113d9b5b4cf70099deb443"
+    },
+    {
+      "path": "pets/inori-q-red-jacket/spritesheet.png",
+      "size_bytes": 3003342,
+      "sha256": "980cd748cf724779f9ac06a7d783a2ddb7ebceb6b3c9d44cfce31bf0bfaa5c75"
+    },
+    {
+      "path": "pets/inori-q-school/LICENSE.md",
+      "size_bytes": 3678,
+      "sha256": "add3b968983ee410425e5d94686fd298bd2a5efa8bce19cfea50fbc2ca1f7b9d"
+    },
+    {
+      "path": "pets/inori-q-school/NOTICE.txt",
+      "size_bytes": 2271,
+      "sha256": "0476a6e1269deaa0cbbf2db6e96143279dc19a5caf3a46bba243a6f6ac6da0d7"
+    },
+    {
+      "path": "pets/inori-q-school/pet.json",
+      "size_bytes": 248,
+      "sha256": "113c389df11eb8693d9a44cd056ad75d08d246fa3ad77604ce83d76ad4fdb1d2"
+    },
+    {
+      "path": "pets/inori-q-school/spritesheet.png",
+      "size_bytes": 2553449,
+      "sha256": "b3999e4601828b1ef69ef90113982bfcc47e86ed895f161a21269ed88440022e"
+    },
+    {
+      "path": "pets/inori-red-jacket/LICENSE.md",
+      "size_bytes": 3685,
+      "sha256": "1d23bd86a7715353755a8331b6eefc6a62552c25dce4ab78ba239a0f070b3187"
+    },
+    {
+      "path": "pets/inori-red-jacket/NOTICE.txt",
+      "size_bytes": 2271,
+      "sha256": "0476a6e1269deaa0cbbf2db6e96143279dc19a5caf3a46bba243a6f6ac6da0d7"
+    },
+    {
+      "path": "pets/inori-red-jacket/pet.json",
+      "size_bytes": 268,
+      "sha256": "9de6d0a2e8be5831536f262ad65334481ce593aa12948fc47ad898d9f6260f8d"
+    },
+    {
+      "path": "pets/inori-red-jacket/spritesheet.png",
+      "size_bytes": 1476406,
+      "sha256": "e981a3e42997d71ab9f33c80f5a72655eb4e3610a70b3fa953827a4fe734516b"
+    },
+    {
+      "path": "pets/inori-school/LICENSE.md",
+      "size_bytes": 3683,
+      "sha256": "faf23c4edcecf7416ea96e33b5e7841f10b4776b428df6641c4c7450a5672901"
+    },
+    {
+      "path": "pets/inori-school/NOTICE.txt",
+      "size_bytes": 2271,
+      "sha256": "0476a6e1269deaa0cbbf2db6e96143279dc19a5caf3a46bba243a6f6ac6da0d7"
+    },
+    {
+      "path": "pets/inori-school/pet.json",
+      "size_bytes": 269,
+      "sha256": "953dac564f1a35c7a85d1056e70d2aca1615b7cbf21fa3368b556add48e442ec"
+    },
+    {
+      "path": "pets/inori-school/spritesheet.png",
+      "size_bytes": 1523021,
+      "sha256": "7ba5f18a1fbb1d3f674e517e02a11bc215139b425f177af51b2e14cc336c648b"
     },
     {
       "path": "previews/inori-q-goldfish.gif",
@@ -261,5 +411,14 @@
       "sha256": "d3b310192d07d44bc69ffcd26ae9b817324ab31cd04007b3ec2100774f09ffbb"
     }
   ],
-  "manifest_integrity_note": "SHA256SUMS additionally hashes this manifest. Neither file includes its own hash."
+  "manifest_integrity_note": "Covers all repository payload files except manifest.json and SHA256SUMS. SHA256SUMS hashes manifest.json and all other payload files except itself; .git/ is not payload.",
+  "updated_at_utc": "2026-10-06T20:34:00Z",
+  "licensing": {
+    "repository_code_and_documentation": "LICENSE",
+    "fan_assets": "ASSETS_LICENSE.md",
+    "notice": "NOTICE.txt",
+    "provenance": "PROVENANCE.md",
+    "release_checklist": "RELEASE_CHECKLIST.md",
+    "scope_note": "MIT excludes images, animations, pet-specific metadata, and packaged asset payloads. Asset permissions apply only to contributor-held licensable rights; underlying third-party rights are excluded."
+  }
 }
