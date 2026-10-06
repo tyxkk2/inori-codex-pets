@@ -1,6 +1,6 @@
 # Repository layout / 仓库目录
 
-Status: **private, unreleased**. See [RELEASE_CHECKLIST.md](RELEASE_CHECKLIST.md).
+Status: **public repository; no GitHub Release**. See [RELEASE_CHECKLIST.md](RELEASE_CHECKLIST.md).
 
 - `pets/<pet-id>/`: five inspectable pet folders. Each contains `pet.json`, `spritesheet.png`, `NOTICE.txt`, and a self-contained asset `LICENSE.md`.
 - `packages/`: five standalone ZIPs, rebuilt to include the same four files at the archive root. ZIP bytes change when notices change; the sprite and metadata bytes stay unchanged.
@@ -16,5 +16,5 @@ Status: **private, unreleased**. See [RELEASE_CHECKLIST.md](RELEASE_CHECKLIST.md
 
 Integrity lists exclude Git's internal `.git/` directory. Extracted pet files and corresponding ZIP members match byte-for-byte. Read [INSTALL.md](INSTALL.md) before loading.
 
-此仓库保持私有、未发布。ZIP 因附带声明更新而重新打包；五张原始 PNG、六张 GIF 及五份 pet.json 保持不变。校验记录覆盖完整仓库文件（不含 Git 内部目录）；manifest 与 SHA256SUMS 排除自身哈希，避免递归。
+此仓库已公开，尚无 GitHub Release。包内及原始许可/NOTICE 的私有状态文字保留自准备阶段，当前状态见 README。ZIP 因附带声明更新而重新打包；五张原始 PNG、六张 GIF 及五份 pet.json 保持不变。校验记录覆盖完整仓库文件（不含 Git 内部目录）；manifest 与 SHA256SUMS 排除自身哈希，避免递归。
 

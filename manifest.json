@@ -1,8 +1,8 @@
 {
   "bundle": "inori-codex-pets",
-  "status": "private-unreleased",
+  "status": "public-repository-no-github-release",
   "created_at_utc": "2026-10-06T20:01:31Z",
-  "public_release_authorized": false,
+  "public_release_authorized": true,
   "license_status": "Scoped MIT for eligible original repository code/docs; limited personal/noncommercial asset notice only for contributor-held rights; third-party rights unresolved.",
   "artwork_policy": "Original PNG, GIF, pet.json and validation-report bytes preserved. Licensing update changes documentation, packaged notices and integrity metadata only.",
   "compatibility_target": "Petdex Desktop local-folder packaging; no current ChatGPT-native ZIP import UI verified.",
@@ -182,13 +182,13 @@
     },
     {
       "path": "CONTRIBUTING.md",
-      "size_bytes": 2312,
-      "sha256": "a1ebe464224afd486827df362c552b8d0ebbed4a299d72db4f3fcf5d3f2fab1c"
+      "size_bytes": 2272,
+      "sha256": "e669955d2284ea6d2ed0139164768984ec28fc7fa7a2025cf6c6568c39ba561b"
     },
     {
       "path": "INSTALL.md",
-      "size_bytes": 4988,
-      "sha256": "81a28d19dbafce6d04c45a539f2289513b3a2ac50bd2b756268138cf878ec735"
+      "size_bytes": 4979,
+      "sha256": "3ba72081131e0ffa1877d2d915ab0067c670e36bca6923a3cb1cc0ff7217e863"
     },
     {
       "path": "LICENSE",
@@ -202,8 +202,8 @@
     },
     {
       "path": "PREVIEW.html",
-      "size_bytes": 5502,
-      "sha256": "cd3300bb18821f59064737bb745d3aaed3cc92fb8748f6afce8397b5153ecc3f"
+      "size_bytes": 5553,
+      "sha256": "d9a0e5442b8250d76a37ec6f3e05f3737c624814bda05a696fe6ae0c5953a4e0"
     },
     {
       "path": "PROVENANCE.md",
@@ -212,18 +212,18 @@
     },
     {
       "path": "README.md",
-      "size_bytes": 7035,
-      "sha256": "c0ebe9671587c952174573e4aed6eaafaf3ee9bf689be98abf097c15a7398727"
+      "size_bytes": 7610,
+      "sha256": "7a131672b98438b491f3a1fbb0198a883b57f23159728f93fe6cf228b6e3ef39"
     },
     {
       "path": "RELEASE_CHECKLIST.md",
-      "size_bytes": 2884,
-      "sha256": "72094681a0e1d8914fdab2dfcaa573c76028498873088a3fcfc99a156c0b13f1"
+      "size_bytes": 2874,
+      "sha256": "e26def7e0f9b5c5a4829857601426db20edc7cda9dfa91d23fdc695b9312f16c"
     },
     {
       "path": "REPOSITORY.md",
-      "size_bytes": 1743,
-      "sha256": "f0c7c4c6f84a788ec28ab9a398104d4373179aceece430c3c803463299425157"
+      "size_bytes": 1868,
+      "sha256": "f097cb04a55d87150beeffdb5a03884e8e3141dbf6c33cbd6cf74590d09b1a4a"
     },
     {
       "path": "VALIDATION.md",
@@ -412,7 +412,7 @@
     }
   ],
   "manifest_integrity_note": "Covers all repository payload files except manifest.json and SHA256SUMS. SHA256SUMS hashes manifest.json and all other payload files except itself; .git/ is not payload.",
-  "updated_at_utc": "2026-10-06T20:34:00Z",
+  "updated_at_utc": "2026-10-06T20:42:00Z",
   "licensing": {
     "repository_code_and_documentation": "LICENSE",
     "fan_assets": "ASSETS_LICENSE.md",
@@ -420,5 +420,6 @@
     "provenance": "PROVENANCE.md",
     "release_checklist": "RELEASE_CHECKLIST.md",
     "scope_note": "MIT excludes images, animations, pet-specific metadata, and packaged asset payloads. Asset permissions apply only to contributor-held licensable rights; underlying third-party rights are excluded."
-  }
+  },
+  "publication_authorization_scope": "Repository visibility only, authorized by the maintainer on 2026-10-06; not third-party rights clearance or authorization for a GitHub Release, tag, Pages site, or gallery submission."
 }

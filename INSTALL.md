@@ -3,7 +3,7 @@
 适用范围 / Scope: Petdex Desktop, source revision 7e327034c27098bb7b701b834e34af81c2cfbdba
 
 ## 中文
-1. 先阅读 [素材使用声明](ASSETS_LICENSE.md)。从私有仓库的 [packages/](packages/) 下载单只 ZIP（例如 inori-q-school.zip），或下载完整仓库后在该目录选择一套。链接仅对已有仓库权限者可用。
+1. 先阅读 [素材使用声明](ASSETS_LICENSE.md)。从仓库的 [packages/](packages/) 下载单只 ZIP（例如 inori-q-school.zip），或下载完整仓库后在该目录选择一套。仓库现已公开。
 2. 将该独立 ZIP 解压到同名文件夹中。文件结构应为：
    - inori-q-school/pet.json
    - inori-q-school/spritesheet.png
@@ -25,7 +25,7 @@
 - 总 ZIP 包含五个独立 ZIP，不是单只宠物包。公开上传、发布和授权审阅不属于这里的本地加载步骤。
 
 ## English
-1. Read the [asset notice](ASSETS_LICENSE.md), then select a standalone ZIP from [packages/](packages/) in this private repository, or download the repository and choose a ZIP from that folder. Repository access is required.
+1. Read the [asset notice](ASSETS_LICENSE.md), then select a standalone ZIP from [packages/](packages/) in this public repository, or download the repository and choose a ZIP from that folder. No repository membership is required to download.
 2. Extract it into a folder with the matching slug, such as inori-q-school/. Its root must contain pet.json, spritesheet.png, NOTICE.txt, and LICENSE.md.
 3. Place that folder under your user's ~/.codex/pets/ or ~/.petdex/pets/. Example: ~/.codex/pets/inori-q-school/pet.json. The tilde means your home directory.
 4. In an already-installed Petdex Desktop, open Settings → Pets → Installed, click Refresh, search for the folder slug (for example inori-q-school), then click Select. Custom pets → Open folder is a separate control for opening the local pets directory.
