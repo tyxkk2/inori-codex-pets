@@ -1,0 +1,116 @@
+{
+  "variant": "inori-q-red-jacket",
+  "checked_at_utc": "2026-10-06T20:01:31Z",
+  "spritesheet_sha256": "980cd748cf724779f9ac06a7d783a2ddb7ebceb6b3c9d44cfce31bf0bfaa5c75",
+  "encoded_bytes": 3003342,
+  "width": 1536,
+  "height": 2288,
+  "mode": "RGBA",
+  "cell_width": 192,
+  "cell_height": 208,
+  "grid_columns": 8,
+  "grid_rows": 11,
+  "sprite_version": 2,
+  "frames_per_row": [
+    6,
+    8,
+    8,
+    4,
+    5,
+    8,
+    6,
+    6,
+    6,
+    8,
+    8
+  ],
+  "current_structural_preflight": {
+    "valid": true,
+    "errors": []
+  },
+  "local_structural_validation": {
+    "ok": true,
+    "encoded_bytes": 3003342,
+    "sha256": "980cd748cf724779f9ac06a7d783a2ddb7ebceb6b3c9d44cfce31bf0bfaa5c75",
+    "format": "PNG",
+    "mode": "RGBA",
+    "columns": 8,
+    "rows": 11,
+    "sprite_version_number": 2,
+    "width": 1536,
+    "height": 2288,
+    "transparent_rgb_residue_pixels": 0,
+    "errors": [],
+    "warnings": []
+  },
+  "prior_quality_review": {
+    "ok": true,
+    "encoded_bytes": 3003342,
+    "sha256": "980cd748cf724779f9ac06a7d783a2ddb7ebceb6b3c9d44cfce31bf0bfaa5c75",
+    "jump": {
+      "idle_baseline": 202,
+      "jump_baselines": [
+        202,
+        193,
+        175,
+        193,
+        202
+      ],
+      "airborne_lift_pixels": 27,
+      "landing_delta_pixels": 0
+    },
+    "look_registration": {
+      "neutral_center_x": 96.0,
+      "look_centers_x": [
+        98.0,
+        90.5,
+        89.5,
+        89.0,
+        88.5,
+        88.0,
+        87.5,
+        89.5,
+        97.0,
+        98.0,
+        100.5,
+        99.5,
+        101.0,
+        99.5,
+        100.0,
+        100.0
+      ],
+      "look_widths": [
+        108,
+        105,
+        103,
+        102,
+        101,
+        102,
+        101,
+        101,
+        104,
+        110,
+        113,
+        111,
+        108,
+        109,
+        108,
+        106
+      ],
+      "maximum_center_drift_pixels": 8.5,
+      "maximum_width_ratio": 1.118811881188119
+    },
+    "errors": [],
+    "warnings": [
+      "look direction 022.5 accepted with a reviewed warning",
+      "look direction 067.5 accepted with a reviewed warning",
+      "look direction 112.5 accepted with a reviewed warning",
+      "look direction 157.5 accepted with a reviewed warning",
+      "look direction 292.5 accepted with a reviewed warning",
+      "000->022.5 diff is a local outlier (2638 pixels vs neighbor average 1765)",
+      "157.5->180 center shift is high (8.1px)"
+    ]
+  },
+  "prior_quality_review_note": "Carried forward for these exact bytes; warnings retained. This packaging pass did not rerun a full aesthetic/directional review.",
+  "runtime_import_tested": false
+}

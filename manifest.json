@@ -1,0 +1,265 @@
+{
+  "bundle": "inori-codex-pets",
+  "status": "review-draft",
+  "created_at_utc": "2026-10-06T20:01:31Z",
+  "public_release_authorized": false,
+  "license_status": "Undecided; no new grant of rights.",
+  "artwork_policy": "Original PNG and GIF bytes preserved. No artwork generated or modified in this packaging pass.",
+  "compatibility_target": "Petdex Desktop local-folder packaging; no current ChatGPT-native ZIP import UI verified.",
+  "petdex_source_revision": "7e327034c27098bb7b701b834e34af81c2cfbdba",
+  "pets": [
+    {
+      "id": "inori-q-goldfish",
+      "display_name_zh": "楪祈·金鱼服 Q 版",
+      "display_name_en": "Inori · Q Goldfish",
+      "package": "packages/inori-q-goldfish.zip",
+      "spritesheet": {
+        "member": "spritesheet.png",
+        "sha256": "cfb30d2b6a2e7c5791c1108e8c9ef1171312cb5404c7caf1c7445f3554b15e5d",
+        "size_bytes": 2821747,
+        "width": 1536,
+        "height": 2288,
+        "mode": "RGBA",
+        "sprite_version": 2
+      },
+      "pet_json": {
+        "member": "pet.json",
+        "sha256": "bb1813cfd36cdc548ca9fe0ec0fcb9b5be8c18592c7fdf39676b9e3713620176"
+      },
+      "preview": {
+        "path": "previews/inori-q-goldfish.gif",
+        "sha256": "b7ecd7a083c91095ba4305736434683eb92fafa6b2b7fc6e20d1e9c19112808a",
+        "size_bytes": 1991341,
+        "width": 384,
+        "height": 456,
+        "frames": 57
+      },
+      "validation": "validation/inori-q-goldfish.json"
+    },
+    {
+      "id": "inori-q-school",
+      "display_name_zh": "楪祈·校园运动服 Q 版",
+      "display_name_en": "Inori · Q School",
+      "package": "packages/inori-q-school.zip",
+      "spritesheet": {
+        "member": "spritesheet.png",
+        "sha256": "b3999e4601828b1ef69ef90113982bfcc47e86ed895f161a21269ed88440022e",
+        "size_bytes": 2553449,
+        "width": 1536,
+        "height": 2288,
+        "mode": "RGBA",
+        "sprite_version": 2
+      },
+      "pet_json": {
+        "member": "pet.json",
+        "sha256": "113c389df11eb8693d9a44cd056ad75d08d246fa3ad77604ce83d76ad4fdb1d2"
+      },
+      "preview": {
+        "path": "previews/inori-q-school.gif",
+        "sha256": "4ed87fdbd5c9a8bd3654b1a6c88bc5aa842731c484c090fe5f7fd9649705791c",
+        "size_bytes": 2055696,
+        "width": 320,
+        "height": 300,
+        "frames": 130
+      },
+      "validation": "validation/inori-q-school.json"
+    },
+    {
+      "id": "inori-q-red-jacket",
+      "display_name_zh": "楪祈·红夹克 Q 版",
+      "display_name_en": "Inori · Q Red Jacket",
+      "package": "packages/inori-q-red-jacket.zip",
+      "spritesheet": {
+        "member": "spritesheet.png",
+        "sha256": "980cd748cf724779f9ac06a7d783a2ddb7ebceb6b3c9d44cfce31bf0bfaa5c75",
+        "size_bytes": 3003342,
+        "width": 1536,
+        "height": 2288,
+        "mode": "RGBA",
+        "sprite_version": 2
+      },
+      "pet_json": {
+        "member": "pet.json",
+        "sha256": "1a8586a2fed3085fa717dd67f3329b9a83aba50ac4113d9b5b4cf70099deb443"
+      },
+      "preview": {
+        "path": "previews/inori-q-red-jacket.gif",
+        "sha256": "d928d7a7061391f3149a6d507820456f01b88bb19a27fe0cea1059882954e4bf",
+        "size_bytes": 2117157,
+        "width": 384,
+        "height": 456,
+        "frames": 57
+      },
+      "validation": "validation/inori-q-red-jacket.json"
+    },
+    {
+      "id": "inori-school",
+      "display_name_zh": "楪祈·校园运动服标准比例版",
+      "display_name_en": "Inori · School",
+      "package": "packages/inori-school.zip",
+      "spritesheet": {
+        "member": "spritesheet.png",
+        "sha256": "7ba5f18a1fbb1d3f674e517e02a11bc215139b425f177af51b2e14cc336c648b",
+        "size_bytes": 1523021,
+        "width": 1536,
+        "height": 2288,
+        "mode": "RGBA",
+        "sprite_version": 2
+      },
+      "pet_json": {
+        "member": "pet.json",
+        "sha256": "953dac564f1a35c7a85d1056e70d2aca1615b7cbf21fa3368b556add48e442ec"
+      },
+      "preview": {
+        "path": "previews/inori-school.gif",
+        "sha256": "8ab771afa7482bd1b698a353d9c4821dd0e7a52a58f84777fb1eee9d8ddd0014",
+        "size_bytes": 304616,
+        "width": 192,
+        "height": 232,
+        "frames": 57
+      },
+      "validation": "validation/inori-school.json"
+    },
+    {
+      "id": "inori-red-jacket",
+      "display_name_zh": "楪祈·红夹克标准比例版",
+      "display_name_en": "Inori · Red Jacket",
+      "package": "packages/inori-red-jacket.zip",
+      "spritesheet": {
+        "member": "spritesheet.png",
+        "sha256": "e981a3e42997d71ab9f33c80f5a72655eb4e3610a70b3fa953827a4fe734516b",
+        "size_bytes": 1476406,
+        "width": 1536,
+        "height": 2288,
+        "mode": "RGBA",
+        "sprite_version": 2
+      },
+      "pet_json": {
+        "member": "pet.json",
+        "sha256": "9de6d0a2e8be5831536f262ad65334481ce593aa12948fc47ad898d9f6260f8d"
+      },
+      "preview": {
+        "path": "previews/inori-red-jacket.gif",
+        "sha256": "6e41b749db0cb1fd1057e5556c879c49f8ab73f3486535a247551a5ef1d87b52",
+        "size_bytes": 2162055,
+        "width": 384,
+        "height": 452,
+        "frames": 114
+      },
+      "validation": "validation/inori-red-jacket.json"
+    }
+  ],
+  "files": [
+    {
+      "path": "INSTALL.md",
+      "size_bytes": 4580,
+      "sha256": "dfdef114004125661fcf09b0966f5a862ca2a0cbd3737f4d6617c944e0f5c024"
+    },
+    {
+      "path": "NOTICE.txt",
+      "size_bytes": 1301,
+      "sha256": "81e34e89bf116d23509eff7a0b0632228d01be5c3b56af1b2c651fe1ca32316b"
+    },
+    {
+      "path": "PREVIEW.html",
+      "size_bytes": 5266,
+      "sha256": "4dc702b4165ce568d516855ede50054bd74fed55d627b7e824a6e57b0c67c11c"
+    },
+    {
+      "path": "PROVENANCE.md",
+      "size_bytes": 2848,
+      "sha256": "e2af0c9f4902a5f8ebda0365281c97d2187e9595054380f7acb3ffc391e755ab"
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 3011,
+      "sha256": "3ebc2f5cf208c8ad14280efa778fb359dac42b4c1104fba78cd299465dfcb6c7"
+    },
+    {
+      "path": "VALIDATION.md",
+      "size_bytes": 2919,
+      "sha256": "e74b5fa292ed76b54e7a66936632cb2849d754cc01a8b1ff88e5de4ead5955a0"
+    },
+    {
+      "path": "packages/inori-q-goldfish.zip",
+      "size_bytes": 2819190,
+      "sha256": "39b78b3be6243aeddb0b1419aa3b940d978462a58e7d31671d3c9288931f5822"
+    },
+    {
+      "path": "packages/inori-q-red-jacket.zip",
+      "size_bytes": 3001131,
+      "sha256": "21113d07d094ba03efc6a70a487f397f66b06fa0b3c5aed6b171b51faa795299"
+    },
+    {
+      "path": "packages/inori-q-school.zip",
+      "size_bytes": 2549831,
+      "sha256": "c0a32aff86abf280233c2d01bd28dcf63cbcee27a022b45f8fc1ac730e0adee8"
+    },
+    {
+      "path": "packages/inori-red-jacket.zip",
+      "size_bytes": 1470800,
+      "sha256": "fdd56c6d26c0cff3f05e5cc53a4238569c73c78f2b5f58a9eb4c5fc7fd7dc5ad"
+    },
+    {
+      "path": "packages/inori-school.zip",
+      "size_bytes": 1519096,
+      "sha256": "4f8361ba9caba57ffc156e003e594029beb0d8ce2bd39035452e120dfbceed44"
+    },
+    {
+      "path": "previews/inori-q-goldfish.gif",
+      "size_bytes": 1991341,
+      "sha256": "b7ecd7a083c91095ba4305736434683eb92fafa6b2b7fc6e20d1e9c19112808a"
+    },
+    {
+      "path": "previews/inori-q-red-jacket.gif",
+      "size_bytes": 2117157,
+      "sha256": "d928d7a7061391f3149a6d507820456f01b88bb19a27fe0cea1059882954e4bf"
+    },
+    {
+      "path": "previews/inori-q-school.gif",
+      "size_bytes": 2055696,
+      "sha256": "4ed87fdbd5c9a8bd3654b1a6c88bc5aa842731c484c090fe5f7fd9649705791c"
+    },
+    {
+      "path": "previews/inori-q-three-outfits-comparison.gif",
+      "size_bytes": 6106346,
+      "sha256": "2e40e3ca8a5ea0a809891e82fba78a2741bb84b03db9c7ece77498bdbdf1ea02"
+    },
+    {
+      "path": "previews/inori-red-jacket.gif",
+      "size_bytes": 2162055,
+      "sha256": "6e41b749db0cb1fd1057e5556c879c49f8ab73f3486535a247551a5ef1d87b52"
+    },
+    {
+      "path": "previews/inori-school.gif",
+      "size_bytes": 304616,
+      "sha256": "8ab771afa7482bd1b698a353d9c4821dd0e7a52a58f84777fb1eee9d8ddd0014"
+    },
+    {
+      "path": "validation/inori-q-goldfish.json",
+      "size_bytes": 3563,
+      "sha256": "ff40e211059549de6509445d949fcabbfe3b3eb2d163e6673aaf9a4f8ae0c9ba"
+    },
+    {
+      "path": "validation/inori-q-red-jacket.json",
+      "size_bytes": 2649,
+      "sha256": "24191acf8d22a50947b6849d29779980aa210e90e144f7dfc181ae11dfc18c67"
+    },
+    {
+      "path": "validation/inori-q-school.json",
+      "size_bytes": 2552,
+      "sha256": "48fc99f2d66186ed460fc1b335dad03ce69e8df18ae5a91910ef3c5718d304a4"
+    },
+    {
+      "path": "validation/inori-red-jacket.json",
+      "size_bytes": 1198,
+      "sha256": "bbb3f9fbe96ddfbe374dbda4d102d151a3a96da58476f76f578611fba687514e"
+    },
+    {
+      "path": "validation/inori-school.json",
+      "size_bytes": 1194,
+      "sha256": "d3b310192d07d44bc69ffcd26ae9b817324ab31cd04007b3ec2100774f09ffbb"
+    }
+  ],
+  "manifest_integrity_note": "SHA256SUMS additionally hashes this manifest. Neither file includes its own hash."
+}

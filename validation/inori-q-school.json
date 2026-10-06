@@ -1,0 +1,114 @@
+{
+  "variant": "inori-q-school",
+  "checked_at_utc": "2026-10-06T20:01:31Z",
+  "spritesheet_sha256": "b3999e4601828b1ef69ef90113982bfcc47e86ed895f161a21269ed88440022e",
+  "encoded_bytes": 2553449,
+  "width": 1536,
+  "height": 2288,
+  "mode": "RGBA",
+  "cell_width": 192,
+  "cell_height": 208,
+  "grid_columns": 8,
+  "grid_rows": 11,
+  "sprite_version": 2,
+  "frames_per_row": [
+    6,
+    8,
+    8,
+    4,
+    5,
+    8,
+    6,
+    6,
+    6,
+    8,
+    8
+  ],
+  "current_structural_preflight": {
+    "valid": true,
+    "errors": []
+  },
+  "local_structural_validation": {
+    "ok": true,
+    "encoded_bytes": 2553449,
+    "sha256": "b3999e4601828b1ef69ef90113982bfcc47e86ed895f161a21269ed88440022e",
+    "format": "PNG",
+    "mode": "RGBA",
+    "columns": 8,
+    "rows": 11,
+    "sprite_version_number": 2,
+    "width": 1536,
+    "height": 2288,
+    "transparent_rgb_residue_pixels": 0,
+    "errors": [],
+    "warnings": []
+  },
+  "prior_quality_review": {
+    "ok": true,
+    "encoded_bytes": 2553449,
+    "sha256": "b3999e4601828b1ef69ef90113982bfcc47e86ed895f161a21269ed88440022e",
+    "jump": {
+      "idle_baseline": 202,
+      "jump_baselines": [
+        202,
+        202,
+        173,
+        183,
+        202
+      ],
+      "airborne_lift_pixels": 29,
+      "landing_delta_pixels": 0
+    },
+    "look_registration": {
+      "neutral_center_x": 95.5,
+      "look_centers_x": [
+        95.0,
+        89.5,
+        90.0,
+        90.0,
+        85.0,
+        88.5,
+        90.0,
+        93.0,
+        94.5,
+        95.5,
+        95.5,
+        95.0,
+        97.0,
+        100.5,
+        99.5,
+        99.5
+      ],
+      "look_widths": [
+        122,
+        111,
+        110,
+        110,
+        110,
+        111,
+        112,
+        112,
+        119,
+        117,
+        117,
+        116,
+        112,
+        113,
+        115,
+        115
+      ],
+      "maximum_center_drift_pixels": 10.5,
+      "maximum_width_ratio": 1.1090909090909091
+    },
+    "errors": [],
+    "warnings": [
+      "look direction 067.5 accepted with a reviewed warning",
+      "look direction 112.5 accepted with a reviewed warning",
+      "look direction 292.5 accepted with a reviewed warning",
+      "067.5->090 diff is a local outlier (1650 pixels vs neighbor average 1097)",
+      "270->292.5 diff is a local outlier (1886 pixels vs neighbor average 1220)"
+    ]
+  },
+  "prior_quality_review_note": "Carried forward for these exact bytes; warnings retained. This packaging pass did not rerun a full aesthetic/directional review.",
+  "runtime_import_tested": false
+}
